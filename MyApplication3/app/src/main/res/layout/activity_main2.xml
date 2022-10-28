@@ -50,7 +50,7 @@
                 android:layout_marginTop="4dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="請輸入飲料名稱"
+                android:hint="請輸入飲料名稱"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -68,6 +68,7 @@
                     android:id="@+id/radioButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:checked="true"
                     android:text="無糖" />
 
                 <RadioButton
@@ -114,6 +115,7 @@
                     android:id="@+id/radioButton6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:checked="true"
                     android:text="去冰" />
 
                 <RadioButton
